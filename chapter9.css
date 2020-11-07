@@ -57,26 +57,20 @@ footer{
 }
 @media screen and (max-width: 768px){
   main{
-    width: 100%;
+    width: 90%;
     display: block;
   }
   header{
     width: 100%;
   }
   .step-box{
-    width: 90%;
-    margin: 0 auto 20px auto;
+    width: 100%;
+    margin-bottom: 20px;
   }
-  .step-img1{
-    height: 150px;
-  }
-  .step-img2{
-    height: 150px;
-  }
-  .step-img3{
+  .step-img{
     height: 150px;
   }
   .step-box:last-child{
-    margin-right: auto;
+    margin-bottom: 0;
   }
 }
